@@ -9,6 +9,7 @@ RUN apk update && \
     apk add libffi libffi-dev && \
     gem install listen && \
     gem install ascii_binder && \
+    gem install io-console && \
     rm -rf /var/cache/apk
 
 LABEL url="http://www.asciibinder.org" \
